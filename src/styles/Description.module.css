@@ -1,0 +1,31 @@
+.back {
+  width: fit-content;
+  height: 35px;
+  border: 1px solid;
+  border-radius: 3px;
+  background: #FFFFFF;
+  cursor: pointer;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-item: center;
+}
+
+.back:hover {
+  border: 1px solid #D0B08B;
+  color: #D0B08B;
+}
+
+
+.back__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.description__example {
+  border: 1px solid;
+  padding: 5px 15px;
+  margin: 10px 0;
+}

@@ -1,0 +1,40 @@
+.footer {
+    margin: 30px 0;
+}
+
+.footer__account {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+}
+
+.footer__account > div {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__account > div:nth-of-type(2n+1) {
+    width: 100%;
+    border-bottom: 1px solid #a8a29e;
+    height: 1px;
+}
+
+.footer__button {
+    margin-top: 20px;
+    width: 150px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 3px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer__button:hover {
+    //background: #fafafa;
+    border: 1px solid #D0B08B;
+    color: #D0B08B;
+}
+
+

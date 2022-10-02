@@ -1,0 +1,33 @@
+.drag__panel {
+    border: 1px dashed #c9c9c9;
+    padding: 25px 10px 15px 10px;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.drag__file__panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    overflow: hidden;
+}
+
+.drag__file__panel span:hover {
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+.form__drag__text {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.form__drag__text span:nth-of-type(2) {
+    font-weight: bold;
+}

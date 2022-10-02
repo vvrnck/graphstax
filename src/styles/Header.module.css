@@ -1,0 +1,21 @@
+.header {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 10px 0;    
+}
+
+.header__image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header__title {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}

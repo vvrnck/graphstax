@@ -1,0 +1,81 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow: hidden;
+  position: fixed;
+  width: 100%; 
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 10px 0 25px 0;
+  background: #FFFFFF;
+  border-radius: 3px;
+  padding: 0 20px;
+  max-width: 650px;
+  overflow-y: auto;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    margin: 0;
+  }
+}
+
+form {
+  width: 100%;
+  padding: 30px 20px;
+}
+
+label { 
+  font-size: small; 
+  padding-left: 3px;
+  padding-bottom: 2px;
+}
+
+input[type='text'], input[type='password'], input[type='email'], input[type='number'] { 
+  height: 35px;
+  border: 1px solid #a8a29e;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input:focus{
+  outline: none;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.align__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small {
+  font-size: small;
+}
+
+.invalid {
+  color: #FF0000;
+  margin-top: 2px;
+}
+
+.remove {
+  color: #FF0000;
+}
